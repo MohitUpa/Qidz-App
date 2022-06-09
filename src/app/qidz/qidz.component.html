@@ -1,18 +1,18 @@
 <div class="all">
-    <app-header (div3s)="div3Event($event)"></app-header>
-    <div *ngIf="div3">
+    <app-header (registrationPage)="onRegistrationPage($event)"></app-header>
+    <div *ngIf="register">
         <div class="custom_manu">
-            <button (click)="div1Function()">Home</button>
+            <button (click)="homePage()">Home</button>
         </div>
         <app-registration></app-registration>
     </div>
     <hr>
     <!-- HOME -->
-    <div *ngIf="div1">
+    <div *ngIf="home">
         <app-hero-section></app-hero-section>
         <app-advertisement-section></app-advertisement-section>
         <app-event-category></app-event-category>
-        <app-first-event-cat (divs)="divEvent($event)"></app-first-event-cat>
+        <app-first-event-cat (detailEventPage)="onDetailEventPage($event)"></app-first-event-cat>
         <app-blog-section></app-blog-section>
         <app-browse-category></app-browse-category>
         <app-home-ad-section></app-home-ad-section>
@@ -21,10 +21,9 @@
     </div>
 
     <!-- Event Details Page -->
-    <div *ngIf="div2">
+    <div *ngIf="eventDetail">
         <div class="custom_manu">
-            <button (click)="div1Function()">Home</button>
-            <!-- <button (click)="div2Function()">Event Details</button> -->
+            <button (click)="homePage()">Home</button>
         </div>
         <hr>
         <app-qidz-event-details></app-qidz-event-details>

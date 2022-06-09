@@ -9,7 +9,7 @@ import { MyEvents } from '../models/event.module';
 })
 export class FirstEventCatComponent implements OnInit {
 
-  @Output() divs = new EventEmitter<any>(); 
+  @Output() detailEventPage = new EventEmitter<any>(); 
 
   public events = MyEvents;
 
@@ -43,8 +43,8 @@ export class FirstEventCatComponent implements OnInit {
     nav: true
   }
 
-  div2Function(value : any) {
+  eventDetail(value : any) {
     // console.log({ div2:true, div1:false, first: 'first-event-component'});
-    this.divs.emit({ div2:true, div1:false});
+    this.detailEventPage.emit({ eventDetail:true, home:false});
   }
 }

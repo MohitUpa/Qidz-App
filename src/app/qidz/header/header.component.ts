@@ -7,16 +7,13 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  @Output() div3s = new EventEmitter<any>();
-  
+  @Output() registrationPage = new EventEmitter<any>();
+
   constructor() { }
 
   ngOnInit(): void {
   }
-  div3Event(value : any) {
-    console.log({ div2:true, div1:false, first: 'header-component'});
-    this.div3s.emit({ div2:false, div1:false, div3:true});
+  pageEvent(value: any) {
+    this.registrationPage.emit({ eventDetail: false, home: false, register: true });
   }
-
-  
 }
