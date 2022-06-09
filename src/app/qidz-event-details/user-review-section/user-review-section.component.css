@@ -1,0 +1,115 @@
+.widget_first h3, .widget_second h3, .widget_third h3 {
+    font-size: 26px;
+    font-family: 'Segoe UI';
+    padding-left: 30px;
+    position: relative;
+}
+.widget_first h3:before {
+    content: '';
+    position: absolute;
+    background: url(../../../assets/img/event-dt/act_ic.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: 5px;
+}
+.widget_second h3:before {
+    content: '';
+    position: absolute;
+    background: url(../../../assets/img/event-dt/review_ic.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -2px;
+    top: 1px;
+}
+
+.read_more_content a {
+    color: #4bbfba;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+    position: relative;
+}
+.read_more_content a:before {
+    content: '';
+    position: absolute;
+    background: url(../../../assets/img/event-dt/read_ic.png) no-repeat;
+    width: 16px;
+    height: 20px;
+    left: 0;
+    top: 2px;
+}
+
+
+
+
+.user_avtar {
+    margin-right: 15px;
+}
+span.user_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    font-family: 'Segoe UI';
+}
+.user_comment .review ul {
+    float: left;
+}
+.review {
+    margin-top: -9px;
+}
+.user_review_sec {
+    margin-bottom: 10px;
+}
+.user_reviews.d-flex {
+    margin-bottom: 15px;
+}
+.card.card-body.review_body {
+    padding-left: 0;
+}
+.reveiw_form_section label {
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+    width: 18%;
+}
+.reveiw_form_section {
+    margin: 30px 0;
+}
+.review_inputs {
+    margin-bottom: 30px;
+}
+.review_inputs.d-flex {
+    align-items: center;
+}
+.review_inputs .review i {
+    font-size: 21px;
+}
+.review_inputs.d-flex input:before {
+    width: 173px;
+    height: 43px;
+    background-color: #e5e5e5;
+    content: 'Upload Now';
+    position: absolute;
+    text-align: center;
+    color: #333;
+    padding: 6px;
+    font-weight: 600;
+    font-size: 17px;
+    background-image: url(../../../assets/img/event-dt/camera_ic.png);
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+}
+.review_inputs.d-flex input {
+    width: 153px;
+    position: relative;
+    height: 39px;
+    border-radius: 5px;
+}
+.review_inputs textarea {
+    width: 81%;
+    height: 138px;
+    border: transparent;
+    box-shadow: -1px 1px 10px -2px #ccc;
+    padding: 10px;
+}

@@ -1,0 +1,11 @@
+.slide {
+    margin: 10px;
+}
+.owl-nav {
+
+    border:5px solid orangered;
+
+}
+.owl-theme .owl-nav .owl-next {
+      transform: translate(50px, 100px);
+}

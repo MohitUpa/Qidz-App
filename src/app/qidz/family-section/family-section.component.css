@@ -1,0 +1,39 @@
+section {
+    padding: 0 0 50px 0;
+  }
+section#family_section_main {
+    background: #4bbfba;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.play_store_buttons a:first-child {
+    margin-right: 15px;
+}
+.family_content {
+    color: #fff;
+    font-family: 'Segoe UI';
+}
+h1.main-heading-wh {
+    color: #fff;
+}
+.family_cont_point h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.family_sub_text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 767px){
+  .family_content {
+    text-align: center;
+}
+.family_carousel_main {
+    text-align: center;
+    margin-bottom: 20px;
+}
+}

@@ -1,0 +1,50 @@
+
+section#download_app {
+    background: url(../../../assets/img/app_bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.download_app_inner .text-center.color-wh, .download_app_inner .text-center.color-wh h1 {
+    color: #fff;
+}
+.download_app_inner .text-center.color-wh p{
+  font-size: 18px;
+  font-family: 'Segoe UI';
+}
+.download_buttons {
+    max-width: 500px;
+    margin: 38px auto 0;
+    display: flex;
+}
+.download_btn {
+    text-align: center;
+}
+.download_btn {
+    text-align: center;
+    margin: 0 40px;
+}
+.download_btn img {
+    margin-bottom: 20px;
+}
+.download_btn.first_btn::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 55px;
+    background: #fff;
+    margin-left: 40px;
+    margin-top: -72px;
+}
+img.down_ic {
+    width: 55px;
+    height: 64px;
+}
+@media only screen and (max-width: 500px){
+  .download_buttons {
+    max-width: 100%;
+    display: inline;
+}
+.download_btn.first_btn::after {
+    width: 0;
+}
+}

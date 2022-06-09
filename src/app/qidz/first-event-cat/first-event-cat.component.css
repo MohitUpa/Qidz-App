@@ -1,0 +1,25 @@
+.event_box {
+    padding: 10px;
+} 
+
+/* .owl-next {
+    height: 50px;
+    width: 50px;
+    color: lightseagreen;
+    font-size: 30px;
+    border-radius: 49px;
+    background: #fff;
+  }
+  .owl-prev {
+    border-radius: 49px;
+    height: 50px;
+    width: 50px;
+    color: lightseagreen;
+    font-size: 30px;
+    background: #fff;
+  } */
+.eventbutton {
+  background: transparent;
+  border: none;
+}
+  

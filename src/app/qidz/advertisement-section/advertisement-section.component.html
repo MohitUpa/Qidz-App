@@ -1,0 +1,59 @@
+<!-- <ngx-slick-carousel class="carousel" 
+  #slickModal="slick-carousel" 
+  [config]="slideConfig" 
+  (init)="slickInit($event)"
+  (breakpoint)="breakpoint($event)"
+  (afterChange)="afterChange($event)"
+  (beforeChange)="beforeChange($event)">
+<div ngxSlickItem *ngFor="let slide of slides" class="slide">
+<img src="{{ slide.img }}" alt="" width="100%">
+</div>
+</ngx-slick-carousel> -->
+<section id="advertisement" class="advertisement">
+  <div class="container">
+
+    <div class="row">
+     <div class="col-md-12">
+      <div class="ad_banner">
+        <div class="ad_banner_inner">
+
+<owl-carousel-o [options]="customOptions">
+  <ng-template carouselSlide>
+    <div class="slide">
+      <div class="ad_image"><a href="#"><img src="assets/img/banner-ad/banner_01.jpg" alt="ad_01"></a></div>
+    </div>
+  </ng-template>
+  <ng-template carouselSlide>
+    <div class="slide">
+      <div class="ad_image"><a href="#"><img src="assets/img/banner-ad/banner_02.jpg" alt="ad_02"></a></div>
+    </div>
+  </ng-template>
+  <ng-template carouselSlide>
+    <div class="slide">
+      <div class="ad_image"><a href="#"><img src="assets/img/banner-ad/banner_03.jpg" alt="ad_03"></a></div>
+    </div>
+  </ng-template>
+  <ng-template carouselSlide>
+    <div class="slide">
+      <div class="ad_image"><a href="#"><img src="assets/img/banner-ad/banner_01.jpg" alt="ad_01"></a></div>
+    </div>
+  </ng-template>
+  <ng-template carouselSlide>
+    <div class="slide">
+      <div class="ad_image"><a href="#"><img src="assets/img/banner-ad/banner_02.jpg" alt="ad_02"></a></div>
+    </div>
+  </ng-template>
+  <ng-template carouselSlide>
+    <div class="slide">
+      <div class="ad_image"><a href="#"><img src="assets/img/banner-ad/banner_03.jpg" alt="ad_03"></a></div>
+    </div>
+  </ng-template>
+</owl-carousel-o>
+
+</div>
+          </div>
+         </div>
+        </div>
+
+      </div>
+    </section>

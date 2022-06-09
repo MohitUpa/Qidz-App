@@ -1,0 +1,44 @@
+
+    .event_activity_part {
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    .event_third_detail div:last-child {
+        border-bottom: transparent;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .widget_first h3, .widget_second h3, .widget_third h3 {
+        font-size: 26px;
+        font-family: 'Segoe UI';
+        padding-left: 30px;
+        position: relative;
+    }
+    .widget_first h3:before {
+        content: '';
+        position: absolute;
+        background: url(../../../assets/img/event-dt/act_ic.png) no-repeat;
+        width: 30px;
+        height: 30px;
+        left: 0;
+        top: 5px;
+    }
+    .widget_second h3:before {
+        content: '';
+        position: absolute;
+        background: url(../../../assets/img/event-dt/review_ic.png) no-repeat;
+        width: 30px;
+        height: 30px;
+        left: -2px;
+        top: 1px;
+    }
+    .widget_third h3:before {
+        content: '';
+        position: absolute;
+        background: url(../../../assets/img/event-dt/review_ic.png) no-repeat;
+        width: 30px;
+        height: 30px;
+        left: -2px;
+        top: 1px;
+    }

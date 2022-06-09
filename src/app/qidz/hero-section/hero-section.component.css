@@ -1,0 +1,24 @@
+.slide {
+    margin: 10px;
+}
+.owl-nav :hover{
+    color: lightseagreen; 
+  }
+.owl-next {
+    height: 50px;
+    width: 50px;
+    color: lightseagreen;
+    font-size: 30px;
+    border-radius: 49px;
+    background: #fff;
+    transform: translate(580px,-0px);
+  }
+  .owl-prev {
+    border-radius: 49px;
+    height: 50px;
+    width: 50px;
+    color: lightseagreen;
+    font-size: 30px;
+    background: #fff;
+    transform: translate(-580px,-0px);
+  }

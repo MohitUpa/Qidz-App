@@ -1,0 +1,66 @@
+
+    .share_widget, .related_act_widget{
+        box-shadow: -1px 1px 10px -2px #ccc;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        padding: 15px;
+    }
+
+    .widget_heading.widget_head_red h3 {
+        font-size: 24px;
+        background: #f54848;
+        display: inline-block;
+        color: #fff;
+        padding: 3px 5px 9px 11px;
+        font-family: 'Segoe UI';
+        position: relative;
+        left: -15px;
+    }
+    .widget_heading.widget_head_blue h3 {
+        font-size: 24px;
+        background: #4bbfba;
+        display: inline-block;
+        color: #fff;
+        padding: 3px 5px 9px 11px;
+        font-family: 'Segoe UI';
+        position: relative;
+        left: -15px;
+    }
+    .widget_heading.widget_head_blue h3:after {
+        background: url(../../../assets/img/event-dt/widget_border_blue.png) no-repeat;
+        right: -30px;
+        width: 50px;
+        height: 41px;
+        content: '';
+        position: absolute;
+        top: 0;
+        z-index: -2;
+    }
+    .widget_heading.widget_head_red h3:after {
+        background: url(../../../assets/img/event-dt/widget_border.png) no-repeat;
+        right: -30px;
+        width: 50px;
+        height: 41px;
+        content: '';
+        position: absolute;
+        top: 0;
+        z-index: -2;
+    }
+
+
+    .share_widget, .related_act_widget{
+        box-shadow: -1px 1px 10px -2px #ccc;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        padding: 15px;
+    }
+
+
+    .media_share ul {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .media_share ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }

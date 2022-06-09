@@ -1,0 +1,58 @@
+<div *ngFor="let event of events">
+  <section id="first_event_cat" class="first_event_cat">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="first_events_section">
+            <div class="first_event_section_inner">
+              <div class="events_main_heading">
+                <h1>{{event.heading}}</h1>
+                <a href="#">See All</a>
+              </div>
+              <div class="first_event_carousel">
+                <owl-carousel-o [options]="customOptions">
+
+                  
+                  <ng-template carouselSlide *ngFor="let cData of event.data">
+                    <button (click)="div2Function($event)" class="eventbutton">
+                    <div class="slide">
+                      <div class="event_box">
+                        <div class="events_des_image">
+                          <img src="{{cData.image}}" alt="ad_04">
+                          <div class="event_code">AED 65</div>
+                        </div>
+                        <div class="event_description">
+                          <h3>{{cData.title}}</h3>
+                          <div class="event_btm_des">
+                            <div class="left_section">
+                              <span class="small_text">The Dubai Mall</span>
+                              <button type="button" class="btn bn_btn">Book Now!</button>
+                            </div>
+                            <div class="right_section">
+                              <div class="review">
+                                <ul>
+                                  <li><i class="fas fa-star"></i></li>
+                                  <li><i class="fas fa-star"></i></li>
+                                  <li><i class="fas fa-star"></i></li>
+                                  <li><i class="fas fa-star"></i></li>
+                                  <li><i class="fas fa-star"></i></li>
+                                </ul>
+                              </div>
+                              <button type="button" class="btn rm_btn">Read More</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </button>
+                  </ng-template>
+
+                </owl-carousel-o>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

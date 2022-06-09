@@ -1,0 +1,12 @@
+.custom_manu button{
+    background: transparent;
+    /* box-shadow: 0 2px 12px rgba(136, 131, 131, 0.3); */
+    padding: 10px;
+    color: rgb(0, 179, 149);
+    border-radius: 3px;
+    border: 1px solid rgb(0, 179, 149);
+    margin: 10px;
+}
+.custom_manu {
+    text-align: left;
+}
