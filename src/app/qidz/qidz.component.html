@@ -1,12 +1,20 @@
 <div class="all">
-    <app-header (registrationPage)="onRegistrationPage($event)"></app-header>
+    <app-header (registrationPage)="onRegistrationPage($event)" (loginPage)="onLoginPage($event)"></app-header>
     <div *ngIf="register">
         <div class="custom_manu">
             <button (click)="homePage()">Home</button>
         </div>
         <app-registration></app-registration>
+        <hr>
     </div>
-    <hr>
+
+    <div *ngIf="login">
+        <div class="custom_manu">
+            <button (click)="homePage()">Home</button>
+        </div><hr>
+        <app-login></app-login>
+        <hr>
+    </div>
     <!-- HOME -->
     <div *ngIf="home">
         <app-hero-section></app-hero-section>

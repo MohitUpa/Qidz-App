@@ -31,6 +31,7 @@ import { MediaSidebarSectionComponent } from './qidz-event-details/media-sidebar
 import { BreakfastSectionComponent } from './qidz-event-details/breakfast-section/breakfast-section.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegistrationComponent } from './Account/registration/registration.component';
+import { LoginComponent } from './Account/login/login.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { RegistrationComponent } from './Account/registration/registration.compo
     MediaSidebarSectionComponent,
     BreakfastSectionComponent,
     RegistrationComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

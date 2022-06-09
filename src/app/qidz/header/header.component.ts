@@ -8,12 +8,15 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   @Output() registrationPage = new EventEmitter<any>();
-
+  @Output() loginPage = new EventEmitter<any>();
   constructor() { }
 
   ngOnInit(): void {
   }
-  pageEvent(value: any) {
-    this.registrationPage.emit({ eventDetail: false, home: false, register: true });
+  registerPageEvent(value: any) {
+    this.registrationPage.emit({ eventDetail: false, home: false, register: true,login: false });
+  }
+  loginPageEvent(value:any) {
+    this.loginPage.emit({ eventDetail: false, home: false, register: false, login: true});
   }
 }
